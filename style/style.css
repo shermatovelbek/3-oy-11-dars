@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one__container{
+    width: 700px;
+    height: 1080px;
+    background: #FFFFFF;
+    background-image: url(../img/Logo.png);
+    background-repeat: no-repeat;
+}
+
+.logotip a img{
+    padding-top: 329px;
+    padding-left: 153px;
+}
+.two__container-text{
+    margin-left:181px ;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 8px;
+}
+.img img{
+    margin-left: 1px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 2px 6px 0px rgba(0, 32, 71, 0.10);
+}
+.text-one h2{
+        color: var(--232D42-Text-Color-1, #232D42);
+    font-family: Inter;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 42.9px */   
+    margin-top:8px;
+    cursor: pointer;
+    transition: all 0.5s; 
+}
+.text-one h2:hover{
+    color:blue;
+}
+.two-text h3{
+    color: var(--8A92A6-Text-Color-2, #8A92A6);
+    /* H6 16px Regular Inter */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%; /* 28px */
+    margin-top: 8px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.two-text h3:hover{
+    color:blue;
+}
+.inpit input{
+    display: flex;
+    width: 391px;
+    height: 44px;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid var(--3A57E8-Primary, #3A57E8);
+    background: var(--FFFFFF-Bg-1, #FFF);
+    margin-top: 8px;
+    cursor: pointer;
+    transition: all 0.5s
+}
+.inpit input:hover{
+    font-size: 16px;
+    background: -webkit-linear-gradient(#eee, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-onee h3{
+    color: var(--8A92A6-Text-Color-2, #8A92A6);
+        /* H6 16px Regular Inter */
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 175%; /* 28px */
+        width: 111px;
+        cursor: pointer;
+        transition: all 0.5s;
+        margin-top: 24px;
+}
+.text-onee h3:hover{
+    color:blue;
+    font-size: 16px;
+}
+.buton button{
+    display: flex; 
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: var(--3A57E8-Primary, #3A57E8);
+    box-shadow: 0px 2px 4px 0px rgba(58, 87, 232, 0.30);
+    transition: all 0.5s;
+    width: 188px;
+    height: 44px;
+    margin-top: 32px;
+}
+.buton button:hover{
+    color:white;
+    background:rgb(46, 43, 43);
+}
+.images img{
+    display: flex;
+height: 1080px;
+padding-right: 0px;
+align-items: center;
+margin-left: 800px;
+margin-top: -1100px;
+}
